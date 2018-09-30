@@ -1,6 +1,7 @@
-package ÑĞ¾¿Ïß³Ì²¢·¢µÄÏîÄ¿;
+package ç ”ç©¶çº¿ç¨‹å¹¶å‘çš„é¡¹ç›®;
 
 public class Test {
+	//éšä¾¿å¼„ä¸€ä¸‹
 	public int inc = 0;
 
 	public void increase() {
@@ -18,7 +19,7 @@ public class Test {
 			}.start();
 		}
 
-		while (Thread.activeCount() > 1) // ±£Ö¤Ç°ÃæµÄÏß³Ì¶¼Ö´ĞĞÍê
+		while (Thread.activeCount() > 1) // ä¿è¯å‰é¢çš„çº¿ç¨‹éƒ½æ‰§è¡Œå®Œ
 			Thread.yield();
 		System.out.println(test.inc);
 	}
