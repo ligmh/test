@@ -1,7 +1,7 @@
 package 研究线程并发的项目;
 
 public class Test {
-	public volatile int inc = 0;
+	public int inc = 0;
 
 	public void increase() {
 		inc++;
