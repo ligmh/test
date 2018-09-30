@@ -1,22 +1,12 @@
-package ç ”ç©¶çº¿ç¨‹å¹¶å‘çš„é¡¹ç›®;
+package ÑĞ¾¿Ïß³Ì²¢·¢µÄÏîÄ¿;
 
 public class Test {
-	//éšä¾¿å¼„ä¸€ä¸‹
-	public int inc = 0;
-	int x;
-	x=1;
+	public volatile int inc = 0;
 
 	public void increase() {
 		inc++;
 	}
-	fdsalkjkla;sdjfkljdsafjdsa;fklasjdf
-		sdfas
-		dfasd
-		fasdf
-		;
-	sdafasdfas
-		adsfadsf;
-	
+
 	public static void main(String[] args) {
 		final Test test = new Test();
 		for (int i = 0; i < 10; i++) {
@@ -28,7 +18,7 @@ public class Test {
 			}.start();
 		}
 
-		while (Thread.activeCount() > 1) // ä¿è¯å‰é¢çš„çº¿ç¨‹éƒ½æ‰§è¡Œå®Œ
+		while (Thread.activeCount() > 1) // ±£Ö¤Ç°ÃæµÄÏß³Ì¶¼Ö´ĞĞÍê
 			Thread.yield();
 		System.out.println(test.inc);
 	}
