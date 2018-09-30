@@ -3,6 +3,8 @@ package 研究线程并发的项目;
 public class Test {
 	//随便弄一下
 	public int inc = 0;
+	int x;
+	x=1;
 
 	public void increase() {
 		inc++;
