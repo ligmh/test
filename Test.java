@@ -9,7 +9,14 @@ public class Test {
 	public void increase() {
 		inc++;
 	}
-
+	fdsalkjkla;sdjfkljdsafjdsa;fklasjdf
+		sdfas
+		dfasd
+		fasdf
+		;
+	sdafasdfas
+		adsfadsf;
+	
 	public static void main(String[] args) {
 		final Test test = new Test();
 		for (int i = 0; i < 10; i++) {
