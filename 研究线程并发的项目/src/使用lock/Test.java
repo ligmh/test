@@ -1,10 +1,19 @@
-package 研究线程并发的项目;
+package 使用lock;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Test {
-	public volatile int inc = 0;
+	public int inc = 0;
+	Lock lock = new ReentrantLock();
 
 	public void increase() {
-		inc++;
+		lock.lock();
+		try {
+			inc++;
+		} finally {
+			lock.unlock();
+		}
 	}
 
 	public static void main(String[] args) {
