@@ -3,9 +3,9 @@ package 线程同步算法;
 public class Worker extends Thread {
 	private String name;
 	private int id;
-	private MutualExclusion shared;
+	private MutualExclusionAlgorithm shared;
 
-	public Worker(String n, int i, MutualExclusion s) {
+	public Worker(String n, int i, MutualExclusionAlgorithm s) {
 		name = n;
 		id = i;
 		shared = s;

@@ -1,6 +1,6 @@
 package 线程同步算法;
 
-public class Algorithm_3 extends MutualExclusion {
+public class Algorithm_3 extends MutualExclusionAlgorithm {
 
 	public static int count = 0;
 

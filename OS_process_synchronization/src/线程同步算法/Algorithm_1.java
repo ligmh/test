@@ -1,10 +1,10 @@
 package 线程同步算法;
 
-public class Algorithm_1 extends MutualExclusion {
+public class Algorithm_1 extends MutualExclusionAlgorithm {
 
 	private volatile int turn;
 
-	public static int count = 0;
+	private int count = 0;
 
 	public Algorithm_1() {
 		turn = TURN_0;

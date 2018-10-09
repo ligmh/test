@@ -1,6 +1,6 @@
 package 线程同步算法;
 
-public class Algorithm_2 extends MutualExclusion {
+public class Algorithm_2 extends MutualExclusionAlgorithm {
 	private volatile boolean[] flag = new boolean[2];
 
 	private int count = 0;
