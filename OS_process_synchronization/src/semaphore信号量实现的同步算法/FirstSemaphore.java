@@ -4,7 +4,6 @@ import java.util.concurrent.Semaphore;
 
 public class FirstSemaphore {
 
-
 	public static void main(String args[]) {
 
 		Semaphore sem = new Semaphore(1);
